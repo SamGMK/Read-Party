@@ -50,6 +50,7 @@ section{
   margin-top:100px;
   margin-left:10%;
   display:flex;
+  flex-wrap:wrap;
 
 }
 
