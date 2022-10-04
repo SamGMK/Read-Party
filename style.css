@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap');
 
 *{
   box-sizing: border-box;
@@ -8,12 +9,6 @@
 }
 
 title,li{
-  font-family: 'Sora', sans-serif;
-  font-weight:500;
-  font-size: 16px;
-  color:#FFFFFF;
-}
-h1,h3{
   font-family: 'Sora', sans-serif;
   font-weight:500;
   font-size: 16px;
@@ -49,6 +44,65 @@ header{
 
 .nav-links li:hover {
   color:#4F3DE1;
+}
+
+section{
+  margin-top:100px;
+  margin-left:10%;
+  display:flex;
+
+}
+
+h1{
+  font-family: 'Sora', sans-serif;
+  font-weight:700;
+  font-size: 56px;
+  color:#FFFFFF;
+  padding-top:50px;
+  padding-bottom:10px;
+  
+}
+h3{
+  font-family: 'Sora', sans-serif;
+  font-weight:200;
+  font-size: 16px;
+  color:rgb(173, 183, 199);
+  padding-left:1%;
+ 
+}
+
+span{
+  color:#5A49E3;
+}
+
+button{
+  background-color:none; 
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  border-bottom-color:#5A49E3 ;
+  color: #5A49E3;
+  padding: 10px 3px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'Sora', sans-serif;
+  font-weight:700;
+  margin-top:60px;
+  margin-bottom:10px;
+  cursor:pointer;
+  transition-duration: 0.4s;
+  
+}
+
+button:hover{
+  font-size: 25px;
+}
+
+.image-aside{
+  width:600px;
+  height:200px;
+  margin-top:30px;
 }
 
 
